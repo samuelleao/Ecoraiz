@@ -1,0 +1,42 @@
+.title {
+    font-weight: bold;
+    font-style: normal;
+    line-height: 50px;
+}
+
+.title-big {
+    font-size: 45px;
+}
+
+.title-medium {
+    font-size: 35px;
+}
+
+.title-little {
+    font-size: 20px;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.p-big {
+    font-size: 18px;
+}
+
+.p-medium {
+    font-size: 15px;
+}
+
+.p-Little {
+    font-size: 12px;
+}
+
+@media(max-width: 991px){
+    .title{
+        line-height: 50px;
+    }
+}

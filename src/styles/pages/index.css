@@ -1,0 +1,23 @@
+.index .section1 .first-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.index .section1 .first-column img {
+    transform: translate3d(100px, -10px, 0px);
+}
+
+.index .section2 .first-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width: 991px){
+    .index section {
+        padding: 60px 0px;
+    }
+    
+}

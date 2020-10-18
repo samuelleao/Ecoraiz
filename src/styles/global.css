@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --border-radius-buttons: 30px;
+    --border-radius-elements: 20px;
+}
+
+body {
+    color: #fff;
+    background-color: #fff;
+}
+
+iframe{
+    border: 1px solid #fff
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+body, input, button, textarea {
+    font: 600 18px Nunito, sans-serif !important;
+}
+
+img{
+    max-width: 100%;
+}
+
+h5, p, button {
+    margin-bottom: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--color-grey);
+    -webkit-box-shadow: var(--color-grey);
+}
+
+.border-radius-elements {
+    border-radius: var(--border-radius-elements);
+}
+
+@media(min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1270px !important;
+    }
+}
+
+
+section {
+    padding: 140px 0px;
+}
+
+@media(max-width: 991px){
+    .section1{
+        padding-top: 100px !important;
+    }
+    section {
+        padding: 60px 0px;
+    }
+}

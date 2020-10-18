@@ -1,0 +1,97 @@
+.about .section1 {
+    background-image: url(../../images/illustrations/about.png);
+    padding: 200px 0px;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.about .section1 .illustration-branch-white{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/illustrations/branch-left-white.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.about .section1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(227, 181, 32, 0.3);
+    pointer-events: none;
+}
+
+.about .section1:after {
+    content: '';
+    background-image: url(../../images/illustrations/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.about .section3 .card-goals {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 50px -15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 40px 15px;
+    max-width: 245px;
+    text-align: center;
+}
+
+.about .section3 .cards-goals {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 2em;
+    justify-content: center;
+}
+
+.about .section3 .second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-10%);
+}
+
+.about .section4 .founder {
+    width: 50%;
+    max-width: 100%;
+    box-shadow: -50px -39px 0px #5E1B17;
+    border-radius: 50%;
+    position: relative;
+}
+
+.about .section4 .founder img{
+    border-radius: 50%;
+}
+
+.about .section4 .founder:before{
+    content: '';
+    position: absolute;
+    left: -70%;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: url(../../images/illustrations/illustration-founder.svg);
+}
+
+@media(max-width: 991px) {
+    .about .section3 .second-column {
+        margin-top: 4em;
+        transform: translateY(0);
+    }
+}

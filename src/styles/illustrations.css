@@ -1,0 +1,60 @@
+.illustration-branch-left, 
+.illustration-branch-right, 
+.illustration-line-left,
+.illustration-line-right{
+    position: relative;
+}
+
+.illustration-branch-left::before{
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/illustrations/branch-left.svg);
+    background-position: left;
+}
+
+.illustration-branch-right::before{
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/illustrations/branch-right.svg);
+    background-position: right;
+}
+
+.illustration-line-left::after{
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/illustrations/line.svg);
+    background-position: left;
+    background-position: left 20%;
+}
+
+.illustration-line-right::after{
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/illustrations/line.svg);
+    background-position: right;
+    background-position: right 20%;
+}

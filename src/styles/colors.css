@@ -1,0 +1,37 @@
+:root{
+    --color-primary: #5E1B17;
+    --color-second: #E3B520;
+    --color-black: #313131;
+    --color-grey: #757575;
+}
+
+.color-primary{
+    color: var(--color-primary) ;
+}
+
+.color-second{
+    color: var(--color-second) ;
+}
+
+.color-black{
+    color: var(--color-black);
+}
+
+.color-grey{
+    color: var(--color-grey);
+}
+
+.bg-color-primary{
+    background: var(--color-primary) ;
+}
+
+.bg-color-second{
+    background: var(--color-second) ;
+}
+
+.bg-light{
+    background-color: #fff4f4 !important;
+}
+
+
+

@@ -1,0 +1,46 @@
+.bt-standard{
+    border-radius: var(--border-radius-buttons) ;
+    padding: 15px 50px ;
+    border: 2px solid #fff ;
+    box-shadow: none !important ;
+    transition: all .6 ease;
+    cursor: pointer !important;
+}
+
+.bt-standard:not(:disabled):not(.disabled).active, 
+.bt-standard:not(:disabled):not(.disabled):active, 
+.show>.bt-standard.dropdown-toggle {
+    background-color: #FFCB24;
+    border-color:#FFCB24;
+}
+
+.bt-standard:focus {
+    color: #fff;
+    background-color: #FFCB24;
+    border-color:#FFCB24;
+    box-shadow: 0 0 0 0.2rem #ffcc2457;
+}
+
+.bt-standard:hover{
+    background-color: #FFCB24 ;
+    border-color: #FFCB24;
+}
+
+.bt-standard-primary{
+    border-color: var(--color-primary) ;
+    background: var(--color-primary) ;
+}
+
+.bt-standard-second{
+    border-color: var(--color-second) ;
+    background: var(--color-second) ;
+}
+
+.bt-standard-black{
+    border-color: var(--color-black) ;
+    background: transparent ;
+    color: var(--color-black);
+}
+
+
+
