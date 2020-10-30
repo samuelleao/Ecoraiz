@@ -1,14 +1,6 @@
 import React from 'react';
 import { FaCalendarAlt, FaClock } from 'react-icons/fa';
 import '../styles/components/blogCard.css';
-
-import blog1 from '../images/blog/blog1.png'
-import blog2 from '../images/blog/blog2.png'
-import blog3 from '../images/blog/blog3.png'
-import blog4 from '../images/blog/blog4.png'
-import blog5 from '../images/blog/blog5.png'
-import blog6 from '../images/blog/blog6.png'
-
 import { Container, Card } from 'react-bootstrap';
 
 function LastPosts() {
@@ -19,7 +11,7 @@ function LastPosts() {
                 <div className='blog-grid'>
                     <Card className='blog-card'>
                         <div className='card-img-top'>
-                            <img src={blog1} />
+                            <img src={require('../images/blog/blog1.png')} />
                             <div className='category'>Receitas</div>
                         </div>
 
@@ -44,7 +36,7 @@ function LastPosts() {
 
                     <Card className='blog-card'>
                         <div className='card-img-top'>
-                            <img src={blog2} />
+                            <img src={require('../images/blog/blog2.png')} />
                             <div className='category'>Receitas</div>
                         </div>
                         <Card.Body>
@@ -68,7 +60,7 @@ function LastPosts() {
                     </Card>
 
                     <Card className='blog-card-line'>
-                        <img src={blog3} />
+                        <img src={require('../images/blog/blog3.png')} />
                         <Card.Body className='blog-card-line-body'>
                             <Card.Title className='title title-little color-black'>Por que consumir alimentos orgânicos?</Card.Title>
                             <div className='blog-card-footer'>
@@ -86,7 +78,7 @@ function LastPosts() {
 
                     </Card>
                     <Card className='blog-card-line'>
-                        <img src={blog4} />
+                        <img src={require('../images/blog/blog4.png')} />
                         <Card.Body className='blog-card-line-body'>
                             <Card.Title className='title title-little color-black'>9 receitas vegetarianas e veganas perfeitas...</Card.Title>
                             <div className='blog-card-footer'>
@@ -103,7 +95,7 @@ function LastPosts() {
                         </Card.Body>
                     </Card>
                     <Card className='blog-card-line'>
-                        <img src={blog5} />
+                        <img src={require('../images/blog/blog5.png')} />
                         <Card.Body className='blog-card-line-body'>
                             <Card.Title className='title title-little color-black'>Conheça a fazenda tamatanduba</Card.Title>
                             <div className='blog-card-footer'>
@@ -120,7 +112,7 @@ function LastPosts() {
                         </Card.Body>
                     </Card>
                     <Card className='blog-card-line'>
-                        <img src={blog6} />
+                        <img src={require('../images/blog/blog6.png')} />
                         <Card.Body className='blog-card-line-body'>
                             <Card.Title className='title title-little color-black'>Como deve ser a alimentação para quem faz academia?</Card.Title>
                             <div className='blog-card-footer'>

@@ -9,11 +9,16 @@ import './styles/colors.css'
 import './styles/fonts.css'
 import './styles/components/buttons.css'
 
-
+import Footer from './components/footer';
+import ButtonWhatsapp from './components/buttonWhatsapp';
 
 ReactDOM.render(
+  <div>
     <App />
-    ,
+    <Footer />
+    <ButtonWhatsapp />
+  </div>
+  ,
   document.getElementById('root')
 );
 

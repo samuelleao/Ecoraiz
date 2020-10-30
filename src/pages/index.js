@@ -5,10 +5,6 @@ import LastPosts from '../components/lastPosts';
 import '../styles/pages/index.css';
 import '../styles/components/video.css';
 
-import playVideo from '../images/video/play-video.svg';
-import img from '../images/illustrations/receitas.png'
-import productsIllustration from '../images/illustrations/products-illustration.svg';
-
 function Index() {
 
     function RemoveVideoMask(){
@@ -39,7 +35,7 @@ function Index() {
                                     se preocupa com sua qualidade.
                                 </p>
                                 <Button className='bt-standard bt-standard-second'>Sobre nós</Button>
-                                <img src={productsIllustration} />
+                                <img src={require('../images/illustrations/products-illustration.svg')} />
                             </div>
                         </Col>
                         <Col xs={12} lg={6} md={12}>
@@ -51,7 +47,7 @@ function Index() {
                                 gyroscope; picture-in-picture' >
                                 </iframe>
                                 <div className='video-mask' id='video1' >
-                                    <img src={playVideo} />
+                                    <img src={require('../images/video/play-video.svg')} />
                                 </div>
                             </div>
                         </Col>
@@ -76,7 +72,7 @@ function Index() {
                             </div>
                         </Col>
                         <Col xs={12} lg={6} md={12} className='d-flex justify-content-center'>
-                            <img src={img} alt='receitas ecoraiz' title='receitas ecoraiz' />
+                            <img src={require('../images/illustrations/receitas.png')} alt='receitas ecoraiz' title='receitas ecoraiz' />
                         </Col>
                     </Row>
                 </Container>

@@ -1,8 +1,6 @@
 import React from 'react';
 import { Button, Navbar, Nav, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-
-import LogoOne from '../images/logo/logoPrimary.png';
 import '../styles/components/header.css';
 
 function Header() {
@@ -29,7 +27,7 @@ function Header() {
         <Navbar className='navbar fixed-top' expand="lg">
             <Container>
                 <Navbar.Brand>
-                    <img src={LogoOne} alt='Ecoraiz' title='Ecoraiz' />
+                    <img src={require ('../images/logo/logoPrimary.png')} alt='Ecoraiz' title='Ecoraiz' />
                 </Navbar.Brand>
                 <label className="menu_button_mobile" type="button" onClick={showMenuMobile}>
                     <span className="menu_button_mobile_icon_custom"></span>
